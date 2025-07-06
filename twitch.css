@@ -77,6 +77,14 @@ nav {
     visibility: hidden;
 }
 
+div.channel-root__right-column, .chat-room, .tw-root--theme-dark .chat-room, .jmERFg, .cCSAoN, .dewBQX {
+    background-color: transparent !important;
+}
+
+div.Layout-sc-1xcs6mc-0.jZQeec div, .channel-root {
+    background-color: transparent !important;
+}
+
 
 .tw-root--theme-dark .side-nav, .side-nav, .kHqXhd, .cRMumF, .channel-root--watch .channel-root__info {
     background-color: transparent !important;
