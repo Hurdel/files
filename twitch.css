@@ -1,0 +1,113 @@
+@-moz-document url-prefix("https://www.twitch.tv/") {
+main .common-centered-column section#front-page-main-content .find-me .tw-tower div.tw-transition:hover {
+    background-color: #333d;
+    transform: scale(1.05);
+    z-index: 2;
+}
+
+main .common-centered-column section#front-page-main-content .find-me .tw-tower div.tw-transition {
+    background-color: #3333;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 5px solid #eee3;
+    padding: 0px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+
+main .common-centered-column section#front-page-main-content .find-me .tw-tower div.game-card__image {
+    background-color: #0000;
+    border-radius: 0px;
+    border: hidden;
+    & :hover {
+        transform: none;
+    }
+}
+
+
+
+div.front-page-carousel {
+    display: none;
+}
+
+
+/* cover hover effect */
+.ScCornerTop-sc-1wvuch4-2,
+.ScCornerBottom-sc-1wvuch4-3,
+.ScEdgeLeft-sc-1wvuch4-4,
+.ScEdgeBottom-sc-1wvuch4-5 {
+    display: none;
+}
+.ScWrapper-sc-1wvuch4-0:hover .iOIbVE.iOIbVE {
+    transform: none;
+}
+
+
+
+main div.chat-list--default {
+    background-image: unset
+}
+
+
+h2 > a[href^="/"]:any-link {
+    color: #eee;
+}
+
+/* Nutzungsbedingungen */
+div.Layout-sc-1xcs6mc-0.iSpCDu {
+    display: none
+}
+
+nav {
+    background-color: #2929299e;
+    border-bottom: 5px solid #eee3;
+}
+
+.side-nav__scrollable_content {
+    background-color: #2929299e;
+    border-right: 5px solid #eee3;
+    & nav {
+        background-color: #0000;
+        border-width: 0px;
+    }
+}
+
+.simplebar-scrollbar {
+    visibility: hidden;
+}
+
+
+.tw-root--theme-dark .side-nav, .side-nav, .kHqXhd, .cRMumF, .channel-root--watch .channel-root__info {
+    background-color: transparent !important;
+}
+
+.channel-root__info .channel-info-content {
+    background-color: #2929299e;
+    border-top: 5px solid #eee3;
+}
+
+.stream-chat {
+    background-color: #2929299e;
+    border-left: 5px solid #eee3;
+}
+
+.fnLHjR {
+    z-index: 1;
+    & :hover {
+        z-index: 2;
+    }
+}
+/*
+body > div {
+    background-color: #0005;
+}
+*/
+body {
+    background-color: #0000 !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://raw.githubusercontent.com/Hurdel/files/refs/heads/main/0143.png);
+}
+}
