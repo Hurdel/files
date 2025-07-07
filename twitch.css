@@ -31,6 +31,10 @@ div.front-page-carousel {
     display: none;
 }
 
+.chat-line__message-highlight {
+    display: none;
+}
+
 
 /* cover hover effect */
 .ScCornerTop-sc-1wvuch4-2,
@@ -75,6 +79,10 @@ nav {
 
 .simplebar-scrollbar {
     visibility: hidden;
+}
+
+.user-notice-line--highlighted {
+    background-color: #ff38d833 !important;
 }
 
 div.channel-root__right-column, .chat-room, .tw-root--theme-dark .chat-room, .jmERFg, .cCSAoN, .dewBQX {
