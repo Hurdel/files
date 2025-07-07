@@ -81,7 +81,12 @@ nav {
     visibility: hidden;
 }
 
-.user-notice-line--highlighted {
+.user-notice-line--highlighted, .announcement-line {
+    background-color: #ff38d833 !important;
+    border-color: #ff38d855 !important;
+}
+
+.announcement-line .jmdYJS {
     background-color: #ff38d833 !important;
 }
 
@@ -89,7 +94,7 @@ div.channel-root__right-column, .chat-room, .tw-root--theme-dark .chat-room, .jm
     background-color: transparent !important;
 }
 
-div.Layout-sc-1xcs6mc-0.jZQeec div, .channel-root {
+div.Layout-sc-1xcs6mc-0.jZQeec div, .channel-root, .home-header-sticky {
     background-color: transparent !important;
 }
 
