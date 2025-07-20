@@ -126,11 +126,15 @@ body > div {
     background-color: #0005;
 }
 */
-h2 {
-    color: #666;
+h2.tw-title {
+    color: #aaa;
     & > a[href^="/"]:any-link {
-        color: #666;
+        color: #aaa;
     }
+}
+
+main {
+    background-color: #0007;
 }
 
 body {
