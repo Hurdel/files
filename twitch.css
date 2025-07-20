@@ -3,16 +3,18 @@ main .common-centered-column section#front-page-main-content .find-me .tw-tower 
     background-color: #333d;
     transform: scale(1.05);
     z-index: 2;
+    backdrop-filter: blur(5px);
 }
 
 main .common-centered-column section#front-page-main-content .find-me .tw-tower div.tw-transition {
-    background-color: #3333;
+    background-color: #3337;
     border-radius: 25px;
     overflow: hidden;
     border: 5px solid #eee3;
     padding: 0px;
     box-sizing: border-box;
     z-index: 1;
+    backdrop-filter: blur(10px);
 }
 
 
@@ -124,11 +126,19 @@ body > div {
     background-color: #0005;
 }
 */
+h2 {
+    color: #666;
+    & > a[href^="/"]:any-link {
+        color: #666;
+    }
+}
+
 body {
     background-color: #0000 !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: url(https://raw.githubusercontent.com/Hurdel/files/refs/heads/main/0143.png);
+    backdrop-filter: blur(1px);
 }
 }
